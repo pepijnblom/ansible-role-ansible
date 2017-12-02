@@ -18,9 +18,10 @@ None.
 
 ## Example Playbook
 
-    - hosts: servers
-      roles:
-        - { role: geerlingguy.ansible }
+- name: Install ansible
+  hosts: all
+  roles:
+    - geerlingguy.ansible
 
 ## License
 
